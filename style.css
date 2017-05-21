@@ -1,0 +1,36 @@
+
+/*.clearfix {
+  clear: both;
+}*/
+
+header {
+  width: 100%;
+  height: 100px;
+  background: pink;
+}
+
+div img {
+  float: left;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Yellowtail', cursive;
+}
+
+div h1 {
+  font-family: 'Dancing script', cursive;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.iconDiv {
+  float: right;
+  margin: inherit;
+  outline: dotted 5px orange;
+}
+
+.littleIcon {
+
+  float: right;
+
+}
