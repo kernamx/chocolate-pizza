@@ -23,9 +23,13 @@ div h1 {
   padding-top: 30px;
 }
 
+div h5{
+  font-size: 10px;
+}
+
 .iconDiv {
   float: right;
-  margin: inherit;
+
   outline: dotted 5px orange;
 }
 
@@ -33,4 +37,60 @@ div h1 {
 
   float: right;
 
+}
+
+main h2 {
+  margin-top: 50px;
+  font-size: 50px;
+  font-family: 'Crete Round', serif;
+
+  }
+ main h4 {
+   color: #888;
+   margin-left: 5px;
+ }
+
+.print {
+  float: right;
+
+  border: dotted 2px orange;
+}
+main img {
+margin: 50px;
+}
+
+main p {
+
+}
+
+ul .ingred {
+
+}
+
+.list {
+
+}
+
+footer div img {
+
+}
+
+.van {
+
+}
+
+.food {
+
+}
+
+.one {
+
+}
+
+.delici {
+
+}
+
+.proud {
+  
 }
