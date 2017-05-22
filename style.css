@@ -3,34 +3,59 @@
   clear: both;
 }*/
 
+body {
+  margin: auto;
+  width: 1000px;
+  height: 1000px;
+  /*outline: dotted 5px orange;*/
+}
+
 header {
   width: 100%;
   height: 100px;
-  background: pink;
+  /*outline: dotted 5px orange;*/
+}
+
+header div {
+    float: left;
+    width: 900px;
+    height: 100px;
 }
 
 div img {
   float: left;
-  padding-top: 30px;
+  /*padding-top: 30px;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 10px;*/
   font-family: 'Yellowtail', cursive;
+}
+
+#logo {
+  width: 200px;
+  margin: 20px;
+  /*outline: dotted 2px blue;*/
 }
 
 div h1 {
   font-family: 'Dancing script', cursive;
   font-size: 30px;
-  padding-top: 30px;
+  /*outline: dotted 2px blue;*/
+  /*padding-top: 30px;*/
 }
 
-div h5{
+div h5 {
   font-size: 10px;
 }
 
 .iconDiv {
   float: right;
+  width: 400px;
+  margin: 40px;
+  /*outline: dotted 5px blue;*/
+}
 
-  outline: dotted 5px orange;
+.iconDiv:nth-child(7) {
+  margin-left: 10px;
 }
 
 .littleIcon {
@@ -52,31 +77,58 @@ main h2 {
 
 .print {
   float: right;
+  height: 20px;
 
-  border: dotted 2px orange;
+  /*border: dotted 2px orange;*/
 }
 main img {
-margin: 50px;
+
+  margin: 50px;
+  margin-bottom: 20px;
+}
+
+section {
+  margin: auto;
 }
 
 section p {
-
+  text-align: left;
+  padding-top: 10px;
+  margin-left: 50px;
+  width: 900px;
+  height: 100px;
+  color: #888;
+  /*outline: dotted 4px blue;*/
 }
 
-.ingred {
-
+.left {
+  margin-top: -50px;
+  padding-top: 75px;
+  font-size: 30px;
+  padding-left: 100px;
 }
 
-.ingre {
-
+.right {
+  font-size: 30px;
+  padding-left: 550px;
+  position: relative;
+  top:-180px
 }
 
 .list {
-
+  margin-top: -480px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(file:///home/powen/codefellows/201/chocolate-pizza/pictures/list-bg.png)
 }
 
-footer div img {
-
+footer {
+  margin-left: 60px;
+  padding-top: 100px;
+  position:absolute;
+  bottom: -1150px;
+  width: 1000px;
+  outline: dotted 3px blue;
 }
 
 .van {
