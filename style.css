@@ -124,11 +124,15 @@ section p {
 
 footer {
   margin-left: 60px;
-  padding-top: 100px;
+  padding-bottom: 50px;
   position:absolute;
-  bottom: -1150px;
-  width: 1000px;
+  bottom: -1100px;
+  width: 900px;
   outline: dotted 3px blue;
+}
+
+button {
+  float: right;
 }
 
 .van {
@@ -140,7 +144,7 @@ footer {
 }
 
 .one {
-
+  
 }
 
 .delici {
