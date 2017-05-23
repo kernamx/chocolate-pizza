@@ -1,19 +1,13 @@
 
-/*.clearfix {
-  clear: both;
-}*/
-
 body {
   margin: auto;
   width: 1000px;
   height: 1000px;
-  /*outline: dotted 5px orange;*/
 }
 
 header {
   width: 100%;
   height: 100px;
-  /*outline: dotted 5px orange;*/
 }
 
 header div {
@@ -24,23 +18,19 @@ header div {
 
 div img {
   float: left;
-  /*padding-top: 30px;
-  padding-left: 10px;
-  padding-right: 10px;*/
   font-family: 'Yellowtail', cursive;
 }
 
 #logo {
-  width: 200px;
-  margin: 20px;
-  /*outline: dotted 2px blue;*/
+    width: 220px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
 }
 
 div h1 {
   font-family: 'Dancing script', cursive;
   font-size: 30px;
-  /*outline: dotted 2px blue;*/
-  /*padding-top: 30px;*/
 }
 
 div h5 {
@@ -48,10 +38,11 @@ div h5 {
 }
 
 .iconDiv {
-  float: right;
-  width: 400px;
-  margin: 40px;
-  /*outline: dotted 5px blue;*/
+    float: right;
+    width: 300px;
+    height: 80px;
+    margin-right: 50px;
+    margin-top: 50px;
 }
 
 .iconDiv:nth-child(7) {
@@ -59,27 +50,25 @@ div h5 {
 }
 
 .littleIcon {
-
   float: right;
-
 }
 
 main h2 {
   margin-top: 50px;
+  margin-left: 50px;
   font-size: 50px;
   font-family: 'Crete Round', serif;
 
   }
  main h4 {
    color: #888;
-   margin-left: 5px;
+   margin-left: 50px;
+   width: 400px;
  }
 
 .print {
   float: right;
   height: 20px;
-
-  /*border: dotted 2px orange;*/
 }
 main img {
 
@@ -92,13 +81,13 @@ section {
 }
 
 section p {
+  text-indent: 50px;
   text-align: left;
   padding-top: 10px;
   margin-left: 50px;
   width: 900px;
   height: 100px;
   color: #888;
-  /*outline: dotted 4px blue;*/
 }
 
 .left {
@@ -128,29 +117,44 @@ footer {
   position:absolute;
   bottom: -1100px;
   width: 900px;
-  outline: dotted 3px blue;
+
 }
 
 button {
-  float: right;
+    float: right;
+    margin-top: -50px;
+    margin-right: 20px;
 }
 
 .van {
-
+    margin-left: 90px;
+    font-family: 'Roboto', sans-serif;
+    width: 210px;
 }
 
 .food {
-
+    margin-left: 90px;
+    margin-top: auto;
+    width: 500px;
 }
 
 .one {
-  
+    position: absolute;
+    top: 100px;
+    left: 415px;
 }
 
 .delici {
-
+    position: absolute;
+    top: 180px;
+    left: 300px;
+    color: #888;
 }
 
 .proud {
-
+  margin: auto;
+  position: absolute;
+  top: 200px;
+  left: 330px;
+  color: #888;
 }
